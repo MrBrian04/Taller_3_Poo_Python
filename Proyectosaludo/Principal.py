@@ -1,10 +1,10 @@
 # ++++++ codigo principal ++++
-from Cliente import Cliente
+from Cliente import cliente
 from Saludo import Saludo
 
 
 # creando objeto cliente
-objCliente = Cliente()
+objCliente = cliente()
 objSaludo = Saludo()
 
 

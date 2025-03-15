@@ -27,8 +27,9 @@ class cliente:
         self.nombre_cliente = input("Digite el nombre del cliente: ")
         self.apellido_cliente = input("Digite el apellido del cliente: ")
     
-    def procesar_datos():
+    def procesar_datos(self):
         aux = self.nombre_cliente + " " + self.apellido_cliente
+        return aux
     
     def mostrar_info_cliente(self):
         print(f"Nombre del cliente: {self.nombre_cliente} - apellido del cliente: {self.apellido_cliente}")
